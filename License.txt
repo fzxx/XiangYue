@@ -1,6 +1,6 @@
 私下研究专用许可证
 
-版本 1.1，2025年8月29日
+版本 1.2，2026年1月20日
 
 版权所有 © 风之暇想
 
@@ -9,7 +9,7 @@
    禁止行为：商业用途、公开传播对软件的研究成果、衍生作品或逆向工程结果（原始文件传播除外）；公开学术使用、AI训练。
 
 2. 传播条款
-   允许以原始未修改形式公开传播，需附带完整许可声明，保留所有版权标识，并提供源代码或源码链接。
+   允许以原始未修改形式公开的非盈利性传播，需附带完整许可声明，保留所有版权标识，并提供源代码或源码链接。
 
 3. 知识产权保护
    任何修改、衍生作品均受本许可约束，且不得公开传播。
@@ -37,7 +37,7 @@ Copyright © Fzxx
     Prohibited acts: Commercial use; public dissemination of research results related to the software, derivative works, or reverse engineering results (except for the dissemination of original files); public academic use; AI training.
 
 2. Distribution Terms
-   Public distribution in its original, unmodified form is permitted, provided that a complete license statement is included, all copyright notices are retained, and the source code or a link to the source code is provided.
+   Non-commercial distribution is permitted in its original, unmodified form, provided that the complete license notice is included, all copyright notices are retained, and the source code or a link to the source code is provided.
 
 3. Intellectual Property Protection
    Any modifications or derivative works shall be subject to this license and shall not be publicly disseminated.
