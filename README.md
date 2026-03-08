@@ -1,8 +1,7 @@
 # 想曰
 
-[![GitHub stars](https://img.shields.io/github/stars/fzxx/XiangYue?style=social)](https://github.com/fzxx/XiangYue)   [![GitHub forks](https://img.shields.io/github/forks/fzxx/XiangYue?style=social&logo=github)](https://github.com/fzxx/XiangYue)   [![已关闭 Issues](https://img.shields.io/github/issues-closed/fzxx/XiangYue?label=%E5%B7%B2%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98&color=green&logo=github)](https://github.com/fzxx/XiangYue/issues?q=is%3Aissue+is%3Aclosed)   [![许可证](https://img.shields.io/badge/License-私下研究专用许可-blue?logo=github)](https://github.com/fzxx/XiangYue/blob/main/main/License.txt)
-[![级联算法](https://img.shields.io/badge/%E6%96%87%E6%9C%AC%E5%8A%A0%E5%AF%86%E9%A6%96%E4%B8%AA%E7%BA%A7%E8%81%94%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7-AES256%20CTR%20+%20ChaCha20%20Poly1305%20IETF-purple?logo=cryptpad&logoColor=white)](https://github.com/fzxx/XiangYue?tab=readme-ov-file#%EF%B8%8F-%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82)   [![多种密文](https://img.shields.io/badge/%E6%94%AF%E6%8C%81%E5%A4%9A%E7%A7%8D%E5%AF%86%E6%96%87-%E4%B8%AD%E6%96%87/Base64/Emoji/%E9%9B%B6%E5%AE%BD/%E6%97%A5%E8%AF%AD/%E9%9F%A9%E8%AF%AD/%E8%B1%A1%E5%BD%A2-purple?logo=livechat&logoColor=white)](https://github.com/fzxx/XiangYue?tab=readme-ov-file#-%E7%89%B9%E7%82%B9)
-
+<div align=center><a href='https://github.com/fzxx/XiangYue'><img src="https://img.shields.io/github/stars/fzxx/XiangYue?style=social" referrerpolicy="no-referrer" alt="GitHub stars"></a>   <a href='https://github.com/fzxx/XiangYue'><img src="https://img.shields.io/github/forks/fzxx/XiangYue?style=social&amp;logo=github" referrerpolicy="no-referrer" alt="GitHub forks"></a>   <a href='https://github.com/fzxx/XiangYue/issues?q=is%3Aissue+is%3Aclosed'><img src="https://img.shields.io/github/issues-closed/fzxx/XiangYue?label=%E5%B7%B2%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98&amp;color=green&amp;logo=github" referrerpolicy="no-referrer" alt="已关闭 Issues"></a>   <a href='https://github.com/fzxx/XiangYue/blob/main/main/License.txt'><img src="https://img.shields.io/badge/License-私下研究专用许可-blue?logo=github" referrerpolicy="no-referrer" alt="许可证"></a>
+<a href='https://github.com/fzxx/XiangYue?tab=readme-ov-file#%EF%B8%8F-%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82'><img src="https://img.shields.io/badge/%E6%96%87%E6%9C%AC%E5%8A%A0%E5%AF%86%E9%A6%96%E4%B8%AA%E7%BA%A7%E8%81%94%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7-AES256%20CTR%20+%20ChaCha20%20Poly1305%20IETF-purple?logo=cryptpad&amp;logoColor=white" referrerpolicy="no-referrer" alt="级联算法"></a>   <a href='https://github.com/fzxx/XiangYue?tab=readme-ov-file#-%E7%89%B9%E7%82%B9'><img src="https://img.shields.io/badge/%E6%94%AF%E6%8C%81%E5%A4%9A%E7%A7%8D%E5%AF%86%E6%96%87-%E4%B8%AD%E6%96%87/Base64/Emoji/%E9%9B%B6%E5%AE%BD/%E6%97%A5%E8%AF%AD/%E9%9F%A9%E8%AF%AD/%E8%B1%A1%E5%BD%A2-purple?logo=livechat&amp;logoColor=white" referrerpolicy="no-referrer" alt="多种密文"></a></div>
 <span style="color: Blue;"><strong><a href="https://github.com/fzxx/XiangYue" style="color: inherit;">想曰(yuē)</a></strong></span> 是基于现代加密技术的文本加密工具，使用**多算法级联加密**方案，确保数据在本地完成加密/解密，保护隐私安全。
 
 
@@ -78,7 +77,7 @@ J7ni11NnCUEe1+GtZcIWoJcKNgzsyN8K8BQBKnDn/1mLPkv2ul1VUcedyoIgZpXcNUKfy3HhZI6soaa5
 #### 发送给多人如何管理多个密码？如何安全地传递密码、公钥？
 
 - 使用可靠的密码管理器，例如：**KeePass**、KeePassXC、**Bitwarden**
-- 使用**开源的阅后即焚文档**传递密码、公钥，例如：**PrivateBin**、pastebin
+- 使用**开源的阅后即焚文档**传递密码、公钥，例如：**PrivateBin**、pastebin；或使用**一次性光密钥对**传递暗公钥。
 
 #### 少量文字也会生成较长的文本，能缩短吗？
 
@@ -113,6 +112,16 @@ J7ni11NnCUEe1+GtZcIWoJcKNgzsyN8K8BQBKnDn/1mLPkv2ul1VUcedyoIgZpXcNUKfy3HhZI6soaa5
 
 - 会导致密文只有自己可以解密，这**不是BUG**，而是隐藏用法，特别留给有藏日记到暗密文需求的人。
 
+#### 如何用非对称加密进行群聊？
+
+- **简化版**：首先所有人**各自生成自己的光密钥对**；然后**所有人公开光公钥**，由群主拿所有人的公钥一对一加密发送**相同的随机密码**，然后所有人都用该随机密码进行**对称加密**，即可开始群聊。
+- **复杂版**：首先由群主生成两个密钥对(**群主光密钥对**和**本群光密钥对**)，群员各自生成**自己的光密钥对**；然后**所有人公开光公钥**，由群主拿所有人的公钥一对一加密发送**本群光密钥对**，然后所有人都填**本群光密钥对**，对方公钥框填**本群光密钥对的公钥**，即可开始群聊（此时无需各自的光密钥对，只需保存好，作为下次交换群密钥对时使用）；如需暗密文，则使用与光密钥对不同的渠道再次传递**本群暗密钥对**（群主生成）。
+
+#### 非对称加密如何确保不被中间人攻击？如何实现向前安全性(历史记录不可解密)？
+
+- 需要使用**可信渠道交换公钥**（线下、第三方邮箱、其它聊天软件、**阅后即焚文档**等等），确认双方公钥无误后开始聊天。
+- **每次聊完一个话题**，生成新的密钥对，**加密发送新的公钥**给对方，下次聊天使用新密钥对（旧密钥对完全删除）；如果是群聊，每次新增成员需要群主发送密钥，减少成员，需要**群主生成新的密钥**并让所有人换成新密钥。
+
 ## 🫧相关项目
 
 [文图变 - 文件藏到图片](https://github.com/fzxx/FileImgSwap)
@@ -123,9 +132,8 @@ J7ni11NnCUEe1+GtZcIWoJcKNgzsyN8K8BQBKnDn/1mLPkv2ul1VUcedyoIgZpXcNUKfy3HhZI6soaa5
 
 ## 📖 许可证
 
-[想曰](https://github.com/fzxx/XiangYue) - [私下研究专用许可](https://github.com/fzxx/XiangYue?tab=License-1-ov-file#)
+[想曰](https://github.com/fzxx/XiangYue) - [私下研究专用许可](https://github.com/fzxx/XiangYue/blob/main/License.txt)
 
 [libsodium.js](https://github.com/jedisct1/libsodium.js/) - ISC 许可证
 
 [pako](https://github.com/nodeca/pako) - MIT 许可证
-
