@@ -1,0 +1,421 @@
+/* ==================== 彩色主题样式  ==================== */
+
+/* 珊瑚红 */
+[data-theme="red"] {
+	--primary: #F56C6C; --primary-light: #F89898; --primary-dark: #E64C4C;
+	--secondary: #E6A23C; --secondary-light: #EBC16C; --secondary-dark: #D48A1E;
+	--danger: #F56C6C; --danger-light: #F89898; --danger-dark: #E64C4C;
+	--surface: #FCE8E8; --surface-elevated: #FFF5F5; --surface-hover: #FAD2D2;
+	--background: #FDF2F2; --border: #F5C2C2; --text: #303133; --text-secondary: #606266;
+}
+[data-theme="red"] .dark {
+	--surface: #4A1A1A; --surface-elevated: #5C2424; --surface-hover: #6B2D2D;
+	--background: #2D0A0A; --border: #7C3A3A; --text: #EAEAEA; --text-secondary: #B0B0B0;
+}
+
+/* 琥珀橙 */
+[data-theme="orange"] {
+	--primary: #E6A23C; --primary-light: #EBC16C; --primary-dark: #D48A1E;
+	--secondary: #67C23A; --secondary-light: #85CE61; --secondary-dark: #529B2E;
+	--danger: #F56C6C; --danger-light: #F89898; --danger-dark: #E64C4C;
+	--surface: #FAECD8; --surface-elevated: #FFF9F0; --surface-hover: #F5D9B5;
+	--background: #FDF6EC; --border: #EBD5B0; --text: #303133; --text-secondary: #606266;
+}
+[data-theme="orange"] .dark {
+	--surface: #4A3518; --surface-elevated: #5C4420; --surface-hover: #6B5228;
+	--background: #2D1F0A; --border: #7C5C2E; --text: #EAEAEA; --text-secondary: #B0B0B0;
+}
+
+/* 柠檬黄 */
+[data-theme="yellow"] {
+	--primary: #D4A017; --primary-light: #E0B84A; --primary-dark: #B88A0A;
+	--secondary: #67C23A; --secondary-light: #85CE61; --secondary-dark: #529B2E;
+	--danger: #F56C6C; --danger-light: #F89898; --danger-dark: #E64C4C;
+	--surface: #F7F1D1; --surface-elevated: #FFFBEB; --surface-hover: #F0E4A8;
+	--background: #FCF9E8; --border: #E8DCA8; --text: #303133; --text-secondary: #606266;
+}
+[data-theme="yellow"] .dark {
+	--primary: #E6C35C; --primary-light: #ECD285; --primary-dark: #D4A017;
+	--surface: #4A4018; --surface-elevated: #5C5020; --surface-hover: #6B5E28;
+	--background: #2D260A; --border: #7C6C2E; --text: #EAEAEA; --text-secondary: #B0B0B0;
+}
+
+/* 薄荷绿 */
+[data-theme="green"] {
+	--primary: #67C23A; --primary-light: #85CE61; --primary-dark: #529B2E;
+	--secondary: #409EFF; --secondary-light: #66B1FF; --secondary-dark: #3A8EE6;
+	--danger: #F56C6C; --danger-light: #F89898; --danger-dark: #E64C4C;
+	--surface: #E1F3D8; --surface-elevated: #F0F9EB; --surface-hover: #C2E7B0;
+	--background: #F0F9EB; --border: #B8E0A0; --text: #303133; --text-secondary: #606266;
+}
+[data-theme="green"] .dark {
+	--primary: #85CE61; --primary-light: #A5D98B; --primary-dark: #67C23A;
+	--surface: #1F3A15; --surface-elevated: #2A4D1E; --surface-hover: #355F26;
+	--background: #14260E; --border: #4A7535; --text: #EAEAEA; --text-secondary: #B0B0B0;
+}
+
+/* 蒂芙青 */
+[data-theme="cyan"] {
+	--primary: #13C2C2; --primary-light: #4DD0D0; --primary-dark: #0E9E9E;
+	--secondary: #67C23A; --secondary-light: #85CE61; --secondary-dark: #529B2E;
+	--danger: #F56C6C; --danger-light: #F89898; --danger-dark: #E64C4C;
+	--surface: #B5F5EC; --surface-elevated: #E6FFFB; --surface-hover: #87E8DE;
+	--background: #E8FFFB; --border: #7EE0D8; --text: #303133; --text-secondary: #606266;
+}
+[data-theme="cyan"] .dark {
+	--primary: #36CFC9; --primary-light: #5CDBD3; --primary-dark: #13C2C2;
+	--surface: #134343; --surface-elevated: #1A5C5C; --surface-hover: #217575;
+	--background: #0B2E2E; --border: #2E8B8B; --text: #EAEAEA; --text-secondary: #B0B0B0;
+}
+
+/* 宝石蓝 */
+[data-theme="blue"] {
+	--primary: #409EFF; --primary-light: #66B1FF; --primary-dark: #3A8EE6;
+	--secondary: #67C23A; --secondary-light: #85CE61; --secondary-dark: #529B2E;
+	--danger: #F56C6C; --danger-light: #F89898; --danger-dark: #E64C4C;
+	--surface: #D9ECFF; --surface-elevated: #ECF5FF; --surface-hover: #B3D8FF;
+	--background: #EBF5FF; --border: #A0C8F0; --text: #303133; --text-secondary: #606266;
+}
+[data-theme="blue"] .dark {
+	--primary: #66B1FF; --primary-light: #8CC5FF; --primary-dark: #409EFF;
+	--surface: #1A3A5C; --surface-elevated: #234B75; --surface-hover: #2C5C8E;
+	--background: #0D2137; --border: #3A6EA5; --text: #EAEAEA; --text-secondary: #B0B0B0;
+}
+
+/* 罗兰紫 */
+[data-theme="purple"] {
+	--primary: #A855F7; --primary-light: #C084FC; --primary-dark: #9333EA;
+	--secondary: #67C23A; --secondary-light: #85CE61; --secondary-dark: #529B2E;
+	--danger: #F56C6C; --danger-light: #F89898; --danger-dark: #E64C4C;
+	--surface: #EDE5FF; --surface-elevated: #F5F0FF; --surface-hover: #D8C4FF;
+	--background: #F6F0FF; --border: #C8B0F0; --text: #303133; --text-secondary: #606266;
+}
+[data-theme="purple"] .dark {
+	--primary: #C084FC; --primary-light: #D8B4FE; --primary-dark: #A855F7;
+	--surface: #3A1F5C; --surface-elevated: #4D2875; --surface-hover: #5F318E;
+	--background: #25123D; --border: #6B3FA5; --text: #EAEAEA; --text-secondary: #B0B0B0;
+}
+
+/* ==================== 彩色主题通用样式规则 ==================== */
+
+/* 基础样式 - body背景和文字 */
+[data-theme="red"] body {
+	background: linear-gradient(135deg, #FAD2D2 0%, #FDF2F2 50%, #FCE8E8 100%);
+}
+[data-theme="red"] .dark body {
+	background: linear-gradient(135deg, #5C2424 0%, #2D0A0A 50%, #4A1A1A 100%);
+}
+
+[data-theme="orange"] body {
+	background: linear-gradient(135deg, #F5D9B5 0%, #FDF6EC 50%, #FAECD8 100%);
+}
+[data-theme="orange"] .dark body {
+	background: linear-gradient(135deg, #5C4420 0%, #2D1F0A 50%, #4A3518 100%);
+}
+
+[data-theme="yellow"] body {
+	background: linear-gradient(135deg, #F0E4A8 0%, #FCF9E8 50%, #F7F1D1 100%);
+}
+[data-theme="yellow"] .dark body {
+	background: linear-gradient(135deg, #5C5020 0%, #2D260A 50%, #4A4018 100%);
+}
+
+[data-theme="green"] body {
+	background: linear-gradient(135deg, #C2E7B0 0%, #F0F9EB 50%, #E1F3D8 100%);
+}
+[data-theme="green"] .dark body {
+	background: linear-gradient(135deg, #2A4D1E 0%, #14260E 50%, #1F3A15 100%);
+}
+
+[data-theme="cyan"] body {
+	background: linear-gradient(135deg, #87E8DE 0%, #E8FFFB 50%, #B5F5EC 100%);
+}
+[data-theme="cyan"] .dark body {
+	background: linear-gradient(135deg, #1A5C5C 0%, #0B2E2E 50%, #134343 100%);
+}
+
+[data-theme="blue"] body {
+	background: linear-gradient(135deg, #B3D8FF 0%, #EBF5FF 50%, #D9ECFF 100%);
+}
+[data-theme="blue"] .dark body {
+	background: linear-gradient(135deg, #234B75 0%, #0D2137 50%, #1A3A5C 100%);
+}
+
+[data-theme="purple"] body {
+	background: linear-gradient(135deg, #D8C4FF 0%, #F6F0FF 50%, #EDE5FF 100%);
+}
+[data-theme="purple"] .dark body {
+	background: linear-gradient(135deg, #4D2875 0%, #25123D 50%, #3A1F5C 100%);
+}
+
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) body {
+	color: var(--text);
+}
+
+/* 导航栏 - 使用渐变背景，由深到浅 */
+[data-theme="red"] nav {
+	background: linear-gradient(135deg, #FAD2D2 0%, #FCE8E8 100%);
+}
+[data-theme="red"] .dark nav {
+	background: linear-gradient(135deg, #5C2424 0%, #4A1A1A 100%);
+}
+
+[data-theme="orange"] nav {
+	background: linear-gradient(135deg, #F5D9B5 0%, #FAECD8 100%);
+}
+[data-theme="orange"] .dark nav {
+	background: linear-gradient(135deg, #5C4420 0%, #4A3518 100%);
+}
+
+[data-theme="yellow"] nav {
+	background: linear-gradient(135deg, #F0E4A8 0%, #F7F1D1 100%);
+}
+[data-theme="yellow"] .dark nav {
+	background: linear-gradient(135deg, #5C5020 0%, #4A4018 100%);
+}
+
+[data-theme="green"] nav {
+	background: linear-gradient(135deg, #C2E7B0 0%, #E1F3D8 100%);
+}
+[data-theme="green"] .dark nav {
+	background: linear-gradient(135deg, #2A4D1E 0%, #1F3A15 100%);
+}
+
+[data-theme="cyan"] nav {
+	background: linear-gradient(135deg, #87E8DE 0%, #B5F5EC 100%);
+}
+[data-theme="cyan"] .dark nav {
+	background: linear-gradient(135deg, #1A5C5C 0%, #134343 100%);
+}
+
+[data-theme="blue"] nav {
+	background: linear-gradient(135deg, #B3D8FF 0%, #D9ECFF 100%);
+}
+[data-theme="blue"] .dark nav {
+	background: linear-gradient(135deg, #234B75 0%, #1A3A5C 100%);
+}
+
+[data-theme="purple"] nav {
+	background: linear-gradient(135deg, #D8C4FF 0%, #EDE5FF 100%);
+}
+[data-theme="purple"] .dark nav {
+	background: linear-gradient(135deg, #4D2875 0%, #3A1F5C 100%);
+}
+
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) nav {
+	border-color: var(--border);
+}
+
+/* 卡片和白色背景元素 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.card, .bg-white, .dark .card, .dark .bg-white) {
+	background-color: var(--surface-elevated);
+	border-color: var(--border);
+}
+
+/* 灰色背景区域 - 卡片内元素 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .bg-gray-50 {
+	background-color: var(--surface);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .bg-gray-100 {
+	background-color: var(--surface-hover);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .dark :is(.bg-gray-50, input.bg-gray-50, textarea.bg-gray-50) {
+	background-color: var(--surface-hover);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .dark .bg-gray-100 {
+	background-color: var(--surface);
+}
+
+/* 页脚 - 使用渐变背景，与主题颜色一致 */
+[data-theme="red"] footer {
+	background: linear-gradient(135deg, #FCE8E8 0%, #FAD2D2 100%);
+}
+[data-theme="red"] .dark footer {
+	background: linear-gradient(135deg, #4A1A1A 0%, #5C2424 100%);
+}
+
+[data-theme="orange"] footer {
+	background: linear-gradient(135deg, #FAECD8 0%, #F5D9B5 100%);
+}
+[data-theme="orange"] .dark footer {
+	background: linear-gradient(135deg, #4A3518 0%, #5C4420 100%);
+}
+
+[data-theme="yellow"] footer {
+	background: linear-gradient(135deg, #F7F1D1 0%, #F0E4A8 100%);
+}
+[data-theme="yellow"] .dark footer {
+	background: linear-gradient(135deg, #4A4018 0%, #5C5020 100%);
+}
+
+[data-theme="green"] footer {
+	background: linear-gradient(135deg, #E1F3D8 0%, #C2E7B0 100%);
+}
+[data-theme="green"] .dark footer {
+	background: linear-gradient(135deg, #1F3A15 0%, #2A4D1E 100%);
+}
+
+[data-theme="cyan"] footer {
+	background: linear-gradient(135deg, #B5F5EC 0%, #87E8DE 100%);
+}
+[data-theme="cyan"] .dark footer {
+	background: linear-gradient(135deg, #134343 0%, #1A5C5C 100%);
+}
+
+[data-theme="blue"] footer {
+	background: linear-gradient(135deg, #D9ECFF 0%, #B3D8FF 100%);
+}
+[data-theme="blue"] .dark footer {
+	background: linear-gradient(135deg, #1A3A5C 0%, #234B75 100%);
+}
+
+[data-theme="purple"] footer {
+	background: linear-gradient(135deg, #EDE5FF 0%, #D8C4FF 100%);
+}
+[data-theme="purple"] .dark footer {
+	background: linear-gradient(135deg, #3A1F5C 0%, #4D2875 100%);
+}
+
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) footer {
+	border-top: 1px solid var(--border);
+}
+
+/* 主色调文字、背景、边框 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.text-primary, .text-blue-500) {
+	color: var(--primary);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.bg-primary, .bg-blue-500) {
+	background-color: var(--primary);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.border-primary, .border-blue-500) {
+	border-color: var(--primary);
+}
+
+/* 按钮渐变样式 - 主按钮 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(button[class*="from-indigo"], button[class*="from-blue"]) {
+	background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
+	box-shadow: 0 4px 14px 0 rgba(0,0,0,0.15);
+}
+
+/* 解密按钮 - 按主题顺序循环配色 (红→橙→黄→绿→青→蓝→紫→红) */
+[data-theme="red"] :is(button[class*="from-green"], button[class*="from-emerald"]) { background: linear-gradient(135deg, #EBC16C, #D48A1E); }
+[data-theme="orange"] :is(button[class*="from-green"], button[class*="from-emerald"]) { background: linear-gradient(135deg, #E0B84A, #B88A0A); }
+[data-theme="yellow"] :is(button[class*="from-green"], button[class*="from-emerald"]) { background: linear-gradient(135deg, #85CE61, #529B2E); }
+[data-theme="green"] :is(button[class*="from-green"], button[class*="from-emerald"]) { background: linear-gradient(135deg, #4DD0D0, #0E9E9E); }
+[data-theme="cyan"] :is(button[class*="from-green"], button[class*="from-emerald"]) { background: linear-gradient(135deg, #66B1FF, #3A8EE6); }
+[data-theme="blue"] :is(button[class*="from-green"], button[class*="from-emerald"]) { background: linear-gradient(135deg, #C084FC, #9333EA); }
+[data-theme="purple"] :is(button[class*="from-green"], button[class*="from-emerald"]) { background: linear-gradient(135deg, #F89898, #E64C4C); }
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(button[class*="from-green"], button[class*="from-emerald"]) {
+	box-shadow: 0 4px 14px 0 rgba(0,0,0,0.15);
+}
+
+/* 清空按钮 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) button[class*="from-red"] {
+	background: linear-gradient(135deg, var(--danger-light), var(--danger-dark));
+	box-shadow: 0 4px 14px 0 rgba(0,0,0,0.15);
+}
+
+/* 生成密钥按钮 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(#generate-keys-1, #generate-keys-2) {
+	background: linear-gradient(135deg, var(--primary-light), var(--primary));
+	color: white;
+	box-shadow: 0 4px 14px 0 rgba(0,0,0,0.15);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) #generate-keys-2 {
+	background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
+}
+
+/* 输入框 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(input, textarea, select, .dark input, .dark textarea, .dark select) {
+	background-color: var(--surface-elevated);
+	border-color: var(--border);
+	color: var(--text);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(input:focus, textarea:focus) {
+	border-color: var(--primary);
+	box-shadow: 0 0 0 3px rgba(64, 158, 255, 0.1);
+}
+
+/* 下拉菜单 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(#theme-dropdown, #encryption-dropdown, #cipher-dropdown, .dark #theme-dropdown, .dark #encryption-dropdown, .dark #cipher-dropdown) {
+	background-color: var(--surface-elevated);
+	border-color: var(--border);
+}
+
+/* 下拉菜单选项悬停 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.theme-option:hover, .encryption-option:hover, .cipher-option:hover, .dark .theme-option:hover, .dark .encryption-option:hover, .dark .cipher-option:hover) {
+	background-color: var(--surface-hover);
+}
+
+/* 提示信息框 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .bg-blue-50 {
+	background-color: var(--surface);
+	border-color: var(--primary);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .dark .bg-blue-50 {
+	background-color: var(--surface-hover);
+}
+
+/* 滚动条 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .scrollbar-thin::-webkit-scrollbar-track {
+	background-color: var(--surface);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .scrollbar-thin::-webkit-scrollbar-thumb {
+	background-color: var(--border);
+}
+
+/* 分割线 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.border-gray-200, .dark .border-gray-200) {
+	border-color: var(--border);
+}
+
+/* 页脚版本号背景 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) footer .bg-gray-100 {
+	background-color: var(--surface);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .dark footer .bg-gray-100 {
+	background-color: var(--surface-hover);
+}
+
+/* 文字颜色 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.text-gray-600, .text-gray-700, .dark .text-gray-600, .dark .text-gray-700) {
+	color: var(--text);
+}
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) :is(.text-gray-400, .text-gray-500, .dark .text-gray-400, .dark .text-gray-500) {
+	color: var(--text-secondary);
+}
+
+/* 彩色主题通用文字颜色 */
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) body { color: #1F2937; }
+:is([data-theme="red"], [data-theme="orange"], [data-theme="yellow"],
+    [data-theme="green"], [data-theme="cyan"], [data-theme="blue"], [data-theme="purple"]) .dark body { color: #F9FAFB; }
